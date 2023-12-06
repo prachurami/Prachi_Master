@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="10" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-28T20:18:31 EST" name="Suite" finished-at="2023-11-28T20:21:30 EST" duration-ms="179867">
+    <groups>
+    </groups>
+    <test started-at="2023-11-28T20:18:31 EST" name="Test" finished-at="2023-11-28T20:21:30 EST" duration-ms="179867">
+      <class name="com.amazon.testcases.CouponsPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:04 EST" name="setup" finished-at="2023-11-28T20:20:14 EST" duration-ms="9881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_Page_Title()[pri:1, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:14 EST" name="Validate_Page_Title" finished-at="2023-11-28T20:20:14 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Page_Title -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:14 EST" name="tearDown" finished-at="2023-11-28T20:20:16 EST" duration-ms="1869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:16 EST" name="setup" finished-at="2023-11-28T20:20:25 EST" duration-ms="9772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_Image()[pri:2, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:25 EST" name="Validate_Image" finished-at="2023-11-28T20:20:26 EST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Image -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:26 EST" name="tearDown" finished-at="2023-11-28T20:20:27 EST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:27 EST" name="setup" finished-at="2023-11-28T20:20:37 EST" duration-ms="10134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_Text1()[pri:3, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:37 EST" name="Validate_Text1" finished-at="2023-11-28T20:20:38 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Text1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:38 EST" name="tearDown" finished-at="2023-11-28T20:20:39 EST" duration-ms="1815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:39 EST" name="setup" finished-at="2023-11-28T20:20:49 EST" duration-ms="9831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_HeaderSize()[pri:4, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:49 EST" name="Validate_HeaderSize" finished-at="2023-11-28T20:20:49 EST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_HeaderSize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:49 EST" name="tearDown" finished-at="2023-11-28T20:20:51 EST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:20:51 EST" name="setup" finished-at="2023-11-28T20:21:01 EST" duration-ms="10192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Validate_Text2()[pri:5, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:21:01 EST" name="Validate_Text2" finished-at="2023-11-28T20:21:09 EST" duration-ms="7122" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span id="a-autoid-23-announce" class="a-button-text"> is not clickable at point (737,580) because another element <input class="a-button-input" type="submit"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5f0a88bc-bf9e-4737-a92c-117c96e20283, clickElement {id=9f6e41e9-a1ae-4f78-b4f2-d6d5ffc4c88c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:30911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16308, moz:profile: C:\Users\Prachi\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (5f0a88bc-bf9e-4737-a92c-117c96e20283)] -> xpath: //*[@id="a-autoid-23-announce"]]
+Session ID: 5f0a88bc-bf9e-4737-a92c-117c96e20283]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span id="a-autoid-23-announce" class="a-button-text"> is not clickable at point (737,580) because another element <input class="a-button-input" type="submit"> obscures it
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5f0a88bc-bf9e-4737-a92c-117c96e20283, clickElement {id=9f6e41e9-a1ae-4f78-b4f2-d6d5ffc4c88c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:30911, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16308, moz:profile: C:\Users\Prachi\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:30911/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (5f0a88bc-bf9e-4737-a92c-117c96e20283)] -> xpath: //*[@id="a-autoid-23-announce"]]
+Session ID: 5f0a88bc-bf9e-4737-a92c-117c96e20283
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:375)
+at jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:387)
+at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.amazon.Pages.CouponsPage.couponsmore(CouponsPage.java:53)
+at com.amazon.testcases.CouponsPageTest.Validate_Text2(CouponsPageTest.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Text2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:21:09 EST" name="tearDown" finished-at="2023-11-28T20:21:10 EST" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:21:10 EST" name="setup" finished-at="2023-11-28T20:21:19 EST" duration-ms="9278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Fail_Validate_Image()[pri:6, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:21:19 EST" name="Fail_Validate_Image" finished-at="2023-11-28T20:21:29 EST" duration-ms="10345" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[contains(@class,'acsUxWidget')]/div/div/div/div/div/div/div/img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [aeeefc75-24f2-4601-8fb7-4e05d07ec01c, findElement {using=xpath, value=//div[contains(@class,'acsUxWidget')]/div/div/div/div/div/div/div/img}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:31794, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17308, moz:profile: C:\Users\Prachi\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31794/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aeeefc75-24f2-4601-8fb7-4e05d07ec01c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(@class,'acsUxWidget')]/div/div/div/div/div/div/div/img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [aeeefc75-24f2-4601-8fb7-4e05d07ec01c, findElement {using=xpath, value=//div[contains(@class,'acsUxWidget')]/div/div/div/div/div/div/div/img}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0, moz:accessibilityChecks: false, moz:buildID: 20231116134553, moz:debuggerAddress: 127.0.0.1:31794, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17308, moz:profile: C:\Users\Prachi\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:31794/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aeeefc75-24f2-4601-8fb7-4e05d07ec01c
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at jdk.internal.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
+at jdk.proxy2/jdk.proxy2.$Proxy14.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at com.amazon.Pages.CouponsPage.FailImageDisplayMethod(CouponsPage.java:47)
+at com.amazon.testcases.CouponsPageTest.Fail_Validate_Image(CouponsPageTest.java:61)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fail_Validate_Image -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.CouponsPageTest@196a42c3]" started-at="2023-11-28T20:21:29 EST" name="tearDown" finished-at="2023-11-28T20:21:30 EST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testcases.CouponsPageTest -->
+      <class name="com.amazon.testcases.AwsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:25 EST" name="setUp" finished-at="2023-11-28T20:19:34 EST" duration-ms="8675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateText()[pri:1, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:34 EST" name="validateText" finished-at="2023-11-28T20:19:37 EST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:37 EST" name="tearDown" finished-at="2023-11-28T20:19:39 EST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:39 EST" name="setUp" finished-at="2023-11-28T20:19:48 EST" duration-ms="9428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ValidateAwsPageTitle()[pri:2, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:48 EST" name="ValidateAwsPageTitle" finished-at="2023-11-28T20:19:48 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateAwsPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:48 EST" name="tearDown" finished-at="2023-11-28T20:19:50 EST" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:50 EST" name="setUp" finished-at="2023-11-28T20:19:59 EST" duration-ms="8957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ImageValidations()[pri:3, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:19:59 EST" name="ImageValidations" finished-at="2023-11-28T20:20:02 EST" duration-ms="3086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.AwsPageTest@79e4c792]" started-at="2023-11-28T20:20:02 EST" name="tearDown" finished-at="2023-11-28T20:20:04 EST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testcases.AwsPageTest -->
+      <class name="com.amazon.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:31 EST" name="setup" finished-at="2023-11-28T20:18:39 EST" duration-ms="8624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPageTitle()[pri:1, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:39 EST" name="LoginPageTitle" finished-at="2023-11-28T20:18:43 EST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:43 EST" name="tearDown" finished-at="2023-11-28T20:18:44 EST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:45 EST" name="setup" finished-at="2023-11-28T20:18:52 EST" duration-ms="7567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SignIn()[pri:2, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:52 EST" name="SignIn" finished-at="2023-11-28T20:18:55 EST" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:55 EST" name="tearDown" finished-at="2023-11-28T20:18:57 EST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:18:57 EST" name="setup" finished-at="2023-11-28T20:19:04 EST" duration-ms="7465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ValidateNumberOfLinksInHeader()[pri:3, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:19:04 EST" name="ValidateNumberOfLinksInHeader" finished-at="2023-11-28T20:19:07 EST" duration-ms="3058" status="FAIL">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[For input string: "28   "]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: For input string: "28   "
+at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+at java.base/java.lang.Integer.parseInt(Integer.java:668)
+at java.base/java.lang.Integer.valueOf(Integer.java:999)
+at com.amazon.testcases.HomePageTest.ValidateNumberOfLinksInHeader(HomePageTest.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNumberOfLinksInHeader -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:19:07 EST" name="tearDown" finished-at="2023-11-28T20:19:08 EST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:19:08 EST" name="setup" finished-at="2023-11-28T20:19:16 EST" duration-ms="7711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Awsaction()[pri:4, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:19:16 EST" name="Awsaction" finished-at="2023-11-28T20:19:24 EST" duration-ms="7650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Awsaction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testcases.HomePageTest@6d4d66d2]" started-at="2023-11-28T20:19:24 EST" name="tearDown" finished-at="2023-11-28T20:19:25 EST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
